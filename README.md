@@ -1,2 +1,7 @@
 # MastersDiplomaProject
-The project featuring the codebase for my master's diploma such as comparing SDID and BSTS, generating data, making visualizations etc. Also the st
+
+Здесь хранится весь код для магистерской диссертации по теме "Оценка причинного эффекта продуктовых изменений в e-commerce в условиях невозможности проведения A/B-тестов: сравнение SDID и BSTS".
+
+Также здесь будет представлено data-приложение на Streamlit с возможностью загрузки данных, расчета метрик по продвинутым методикам SDID и BSTS, их последующая визуализация и некоторые практические рекомендации в выборе методов.
+
+Автор: Сергеев Е.А.
