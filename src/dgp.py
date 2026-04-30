@@ -73,3 +73,10 @@ class DataGenerator:
         self.add_seasonality(period=7, amplitude_control=5, amplitude_test=20)
         self.inject_treatment(effect_size)
         return self.df
+
+    def get_scenario_ideal(self, effect_size=15.0):
+        # параллельные тренды + шум + лечение
+        self.add_ar_noise(rho=0.4, sigma=2.0)
+        self.add_trend(slope_control=0.2, slope_test=0.2)
+        self.inject_treatment(effect_size)
+        return self.df
