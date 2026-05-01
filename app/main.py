@@ -234,8 +234,6 @@ with col2:
                     st.markdown("#### Веса доноров (control units)")
                     st.dataframe(w_df, use_container_width=True)
 
-                st.info("SDID здесь без доверительного интервала. При желании можно добавить bootstrap.")
-
             else:
                 model = BaselineDiD()
                 effect = model.fit_predict(df)
@@ -244,5 +242,3 @@ with col2:
                 m1.metric("Оценка эффекта (ATE)", f"{effect:.2f}")
                 m2.metric("Метод", "OLS DiD")
                 m3.metric("Время расчёта", f"{model.time_taken:.3f} сек")
-
-                st.info("DiD здесь без графиков контрфакта.")
