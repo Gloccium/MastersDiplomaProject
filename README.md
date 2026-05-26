@@ -46,7 +46,7 @@ pip install -r requirements.txt
 
 Чтобы запустить симуляции Монте-Карло, подтверждающие гипотезы диссертации (H1, H2, H3):
 
-1. **Запустите Jupyter Notebook:** jupyter notebook
+1. Запустите Jupyter Notebook: **jupyter notebook**
 2. Откройте файл notebooks/experiments.ipynb
 3. Запустите все ячейки (Run All). Скрипт проведет 50 итераций генерации данных и выведет в консоль итоговые усредненные метрики смещения (Bias), покрытия (Coverage) и скорости (Inference Time).
 
